@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <h1>
+        TETRIS
+    </h1>
+    <h5>
+        <u>Controls</u><br>
+        <div>
+            <td>Press "←" to move <u>Left</u></td><br>
+            <td>Press "→" to move <u>Right</u></td><br>
+            <td>Press "↓" to move <u>Down</u></td><br>
+            <td>Press "↑" to <u>Rotate Piece</u></td><br>
+        </div><br>
+        <button id="restartButton" onclick="window.location.reload()">Restart</button><br>
+    </h5>
+</head>
+</div>
+<body>
+    <h5><u>Points</u> <div id = "score"> 0 </div></h5>
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <script type= "text/javascript" src="scripts/tokens.js"></script>
+    <script type= "text/javascript" src="scripts/board.js"></script>
+    <script type= "text/javascript" src="scripts/generateToken.js"></script>
+    <script type= "text/javascript" src="scripts/tokenMovement.js"></script>
+    <script type= "text/javascript" src="scripts/defaultDrop.js"></script>
+    <script type= "text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

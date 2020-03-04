@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: rgb(228, 219, 219);
+}
+#tetris {
+    text-align: center;
+    position: relative;
+}
+
+#restartButton:hover {
+    background-color: rgb(106, 93, 179);
+    color: white;
+  }
+
+#restartButton {
+background-color: rgb(114, 192, 117);
+width: 10%;
+padding: 8px;
+position: center;
+font-size: 14px;
+border-radius: 100px;
+}
